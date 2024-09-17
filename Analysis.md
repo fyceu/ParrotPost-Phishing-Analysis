@@ -82,7 +82,7 @@ The adversary also utilizes minimization to remove any spaces and whitespace bet
 Now that the code is more digestible, we are able to see the logic behind their code. They also left comments that helps us understand what each statement does.
 ![Screenshot_11](https://github.com/user-attachments/assets/a7d48978-17bb-4d8b-b28f-a528659389f0)
 
-## Network Monitor
+## Network Monitoring
 **Typically, we would never want to open any malicious attachments received via email.**
 **We would want to use analysis and sandboxing tools (URL2PNG, HybridAnalysis, URLScan, VMs, etc.) for safe investigations.** 
 

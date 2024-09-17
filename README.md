@@ -7,10 +7,10 @@ Your task is to investigate the email and determine whether it is a legitimate r
 ## Executive Summary
 ### Analysis Steps
 
-1. Header Analysis: Extracted email header artifacts
-2. Attachment Analysis: Utilized [CyberChef](https://gchq.github.io/CyberChef/) to decode the HTML attachment
-3. Code De-Obfuscation: Simplified the obfuscated code for analysis
-4. Network Analysis: Monitored network for successful HTTP GET requests to malicious server
+1. **Header Analysis**: Extracted email header artifacts
+2. **Attachment Analysis**: Utilized [CyberChef](https://gchq.github.io/CyberChef/) to decode the HTML attachment
+3. **Code De-Obfuscation**: Simplified the obfuscated code for analysis
+4. **Network Analysis**: Monitored network for successful HTTP GET requests to malicious server
 ### Findings
 
 - Email was sent from a spoofed email address with an IP address originating from Latvia
@@ -19,8 +19,9 @@ Your task is to investigate the email and determine whether it is a legitimate r
 - Submitting fake login credentials to through the phishing login page, we observed the credentials being sent as query parameters in an HTTP GET request to the malicious server
 - Investigating HTTP Response led us to a credential dump of the attacker
 
-**An in-depth analysis and determination of my findings can be found here**
-### Recommendations
+**An in-depth analysis and determination of my findings can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md)**
+**Answers to the questions in this room can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md#questions)**
+## Recommendations
 
 Within a legitimate SOC environment, an incident like this would require an incident report and any recommended actions based on the findings.
 - **Password reset**:
