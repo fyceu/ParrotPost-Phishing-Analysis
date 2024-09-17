@@ -1,5 +1,9 @@
 ## ParrotPost
 This is a writeup for ParrotPost: Phishing Analysis room on TryHackMe. You can read more [here](https://tryhackme.com/r/room/parrotpost)
+
+An in-depth analysis and determination of my findings can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md)
+
+Answers to the questions in this room can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md#questions)
 ## Scenario
 While working as a SOC Analyst for _Flying-Sec_, you receive an incoming report from senior executive Paul Feathers. Paul recently received an email from _ParrotPost_, a legitimate company email tool, asking him to log into his account to resolve an issue with his account information.
 
@@ -16,12 +20,8 @@ Your task is to investigate the email and determine whether it is a legitimate r
 - Email was sent from a spoofed email address with an IP address originating from Latvia
 - Email attachment contained HTML, encoded in Base64, that creates a fake ParrotPost Login Page
 - Upon de-obfuscation of the HTML, it was discovered that the phishing page captures submitted credentials
-- Submitting fake login credentials to through the phishing login page, we observed the credentials being sent as query parameters in an HTTP GET request to the malicious server
-- Investigating HTTP Response led us to a credential dump of the attacker
-
-**An in-depth analysis and determination of my findings can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md)**
-
-**Answers to the questions in this room can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md#questions)**
+- When submitting fake credentials, we observed the credentials being captured and sent as query parameters to the malicious server
+- Investigating HTTP Responses led us to a credential dump of the attacker
 ## Recommendations
 - **Password reset**:
 	- Reset the password of Paul Feather's account to ensure prevent unauthorized access
