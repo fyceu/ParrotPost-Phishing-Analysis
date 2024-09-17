@@ -20,10 +20,9 @@ Your task is to investigate the email and determine whether it is a legitimate r
 - Investigating HTTP Response led us to a credential dump of the attacker
 
 **An in-depth analysis and determination of my findings can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md)**
+
 **Answers to the questions in this room can be found [here](https://github.com/fyceu/ParrotPost-Phishing-Analysis/blob/main/Analysis.md#questions)**
 ## Recommendations
-
-Within a legitimate SOC environment, an incident like this would require an incident report and any recommended actions based on the findings.
 - **Password reset**:
 	- Reset the password of Paul Feather's account to ensure prevent unauthorized access
 - **Monitor for unusual activity**:
