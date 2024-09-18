@@ -25,7 +25,7 @@ Below are some of the common artifacts extracted during header analysis:
 
 Using the captured IP, we can conduct Reverse IP Lookup to find more information about the sender.
 ![Screenshot_3](https://github.com/user-attachments/assets/4537a44c-2a76-4baa-8b34-8021af747e8d)
-### Email Attachment Analysis
+### Attachment Analysis
 
 Doing some more analysis within the EML file, we can see that there was an attachment associated with this email, ```ParrotPostACTIONREQUIRED.htm```, which was encoded in base64.
 ![Screenshot_4](https://github.com/user-attachments/assets/99ba5f30-1959-425a-a8cc-433a424fc904)
@@ -104,6 +104,7 @@ Once clicking the login button, we are presented with an HTTP GET request.
 
 We can view the response tab to view any response content. 
 ![Screenshot_14](https://github.com/user-attachments/assets/a3f6e25a-5918-4a2e-92a5-8ae07c4ba882)
+
 
 Heading to the page ```http://evilparrot.thm:8080/creds.txt``` reveals a dump of all captured credentials.
 ![Screenshot_15](https://github.com/user-attachments/assets/662875d9-49f6-4724-98ee-b6697109b1af)

@@ -35,11 +35,12 @@ Your task is to investigate the email and determine whether it is a legitimate r
 		- Entire Domain is utilized specifically for malicious purposes. 
 		- No Business is conducted with this domain, therefore blocking it will cause no disruption business operations
 - **Security awareness training**:
-	- Notify employees of a successful phishing attempt occurring within the company. Remind employees to not click links in emails, open unsolicited attachments, and the potential risks that can occur of a successful phishing attack.
+	- Notify employees of a successful phishing attempt occurring within the company. 
+	- Remind employees to not click links in emails, open unsolicited attachments, and the potential risks that can occur of a successful phishing attack.
 	- Have Paul complete Security Awareness Training about Phishing
 - **Email Filtering**:
 	- Tune email security filters to flag emails received from external sources
-	- Flag emails that contain suspicious attachments (HTML)
+	- Flag emails that contain suspicious attachments (ex: encoded HTML)
 - **Report findings**: 
 	- Report the phishing attempt to the legitimate email provider ParrotPost
 	- Report to any security authorities, providing details of findings such as malicious IP addresses, domains, hashes of any attachments, etc. 
